@@ -1,4 +1,4 @@
-const max_cats = 1;
+const max_cats = 10;
 const cats = [];
 const likedCats = [];
 const dislikedCats = [];
