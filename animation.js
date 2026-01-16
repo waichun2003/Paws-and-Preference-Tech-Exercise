@@ -1,4 +1,4 @@
-const max_cats = 10;
+const max_cats = 1;
 const cats = [];
 const likedCats = [];
 const dislikedCats = [];
@@ -130,6 +130,9 @@ function renderCard(animate = false) {
 function showSummary() {
   container.style.display = "none";
   summary.classList.remove("hidden");
+
+  document.getElementById("swipe-left-removal").style.opacity = 0;
+document.getElementById("swipe-right-removal").style.opacity = 0;
 
   document.getElementById("welcome-text").classList.add("hidden");
 

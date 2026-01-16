@@ -1,6 +1,13 @@
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Montserrat";
   background: #F5F5DC;
   overflow-x:hidden;
 }
@@ -25,13 +32,27 @@ body {
   padding: 10px 24px;          
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: white;
   background-color: grey;   
   border: none;
   border-radius: 12px; 
 }
 
+.swipe-left,.swipe-right{
+  position: absolute;
+  top: 93%;
+  font-weight: bold;
+}
 
+.swipe-left{
+  color: coral;
+  left: 17%;
+}
+
+.swipe-right{
+  color:green;
+  right: 17%;
+}
 
 #card-container {
   width: 300px;
