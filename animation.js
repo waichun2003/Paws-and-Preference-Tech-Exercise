@@ -178,6 +178,9 @@ function resetApp() {
   likedCats.length = 0;
   dislikedCats.length = 0;
 
+  document.getElementById("swipe-left-removal").style.opacity = 1;
+document.getElementById("swipe-right-removal").style.opacity = 1;
+
   // regenerate cats
   cats.length = 0;
   for (let i = 0; i < max_cats; i++) {
