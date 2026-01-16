@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paw and Preferences</title>
+  <link rel="stylesheet" href="magic.css">
+  
+</head>
+<body>
+
+<div id="app">
+
+  <h1 class="welcome" id="welcome-text"> Find Your Favorite Kitties! </h1>
+  <div id="card-container"></div>
+
+
+  <div id="summary" class="hidden">
+
+    <h1 style="text-align: center; margin-top:10rem;">Your Kitty Summary</h1>
+  <div class="summary-section like">
+    <h2>
+      ❤️ Liked <span id="like-count"></span>
+    </h2>
+    <div id="liked-cats" class="summary-grid"></div>
+  </div>
+
+  <div class="summary-section dislike">
+    <h2>
+      💔 Disliked  <span id="dislike-count"></span>
+    </h2>
+    <div id="disliked-cats" class="summary-grid"></div>
+  </div>
+
+  <button id="reset-btn" style="display: flex; justify-items: center;">Back to Swiping</button>
+
+</div>
+
+<script src="animation.js" defer></script>
+</body>
+</html>
